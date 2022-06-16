@@ -1,5 +1,21 @@
 html{
     background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(228, 240, 220);
+    border: 2px solid black;
+    margin: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 8px 10px 7px 2px rgb(0, 22, 2);
+    
 }
 
 img{
@@ -8,16 +24,6 @@ img{
     border-top-left-radius: 15%;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
-}
-
-body{
-    background-color: rgb(209, 233, 194);
-    margin: 100px 750px;
-    padding: 25px 0;
-    text-align: center;
-    border: 2px solid black;
-    box-shadow: 8px 10px 7px 2px rgb(0, 22, 2);
-    
 }
 
 h1{
@@ -54,6 +60,7 @@ input{
 }
 
 .forget{
+    
     color: rgb(0, 160, 209);
     width: 180px;
     background-color: rgba(185, 8, 8, 0);
